@@ -29,6 +29,7 @@
     ]
   },
   "dependencies": {
+    "atoa": "1.0.0",
     "dragula": "2.1.2",
     "reactify": "1.1.1"
   },
