@@ -1,3 +1,7 @@
+# 1.0.3 Bumpy Road
+
+- Bumped `dragula@3.0.0`
+
 # 1.0.2 Exposure
 
 - Expose as `reactDragula` global

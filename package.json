@@ -1,6 +1,6 @@
 {
   "name": "react-dragula",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Drag and drop so simple it hurts",
   "main": "react-dragula.js",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "atoa": "1.0.0",
-    "dragula": "2.1.2",
+    "dragula": "3.0.0",
     "reactify": "1.1.1"
   },
   "devDependencies": {
