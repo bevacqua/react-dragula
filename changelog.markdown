@@ -1,4 +1,4 @@
-# 1.0.3 Bumpy Road
+# 1.0.4 Bumpy Road
 
 - Bumped `dragula@3.0.0`
 
