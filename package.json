@@ -1,6 +1,6 @@
 {
   "name": "react-dragula",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Drag and drop so simple it hurts",
   "main": "react-dragula.js",
   "scripts": {
