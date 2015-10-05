@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "atoa": "1.0.0",
-    "dragula": "3.3.3",
+    "dragula": "3.4.0",
     "reactify": "1.1.1"
   },
   "devDependencies": {
