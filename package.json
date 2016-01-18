@@ -30,8 +30,7 @@
   },
   "dependencies": {
     "atoa": "1.0.0",
-    "dragula": "3.6.3",
-    "reactify": "1.1.1"
+    "dragula": "3.6.3"
   },
   "devDependencies": {
     "browserify": "11.0.0",
@@ -40,6 +39,7 @@
     "jshint-stylish": "2.0.1",
     "nib": "1.1.0",
     "react": "0.13.3",
+    "reactify": "1.1.1",
     "stylus": "0.52.0",
     "uglify-js": "2.4.24",
     "watchify": "3.3.0"
