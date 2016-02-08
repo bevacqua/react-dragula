@@ -1,5 +1,9 @@
 > Whenever `dragula` itself is updated, a new minor will be published, but the changelog won't be modified
 
+# 1.1.13 Drag On
+
+- Fixed React builds by making `reactify` an explicitly `devDependency` transform
+
 # 1.0.4 Bumpy Road
 
 - Bumped `dragula@3.0.0`
