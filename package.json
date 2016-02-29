@@ -25,7 +25,7 @@
   "homepage": "https://github.com/bevacqua/react-dragula",
   "dependencies": {
     "atoa": "1.0.0",
-    "dragula": "3.6.7"
+    "dragula": "3.6.8"
   },
   "devDependencies": {
     "browserify": "11.0.0",
