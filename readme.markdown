@@ -55,6 +55,35 @@ var App = React.createClass({
 React.render(<App />, document.getElementById('examples'));
 ```
 
+# Example using refs (ES2015 syntax)
+
+Here's an example using refs (ES2015 syntax):  [React: The ref Callback Attribute](https://facebook.github.io/react/docs/more-about-refs.html#the-ref-callback-attribute)
+
+```jsx
+import * as React from "react";
+import Dragula from 'react-dragula';
+export class App extends React.Component {
+  render () {
+    return <div className='container' ref={this.dragulaDecorator}>
+      <div>Swap me around</div>
+      <div>Swap her around</div>
+      <div>Swap him around</div>
+      <div>Swap them around</div>
+      <div>Swap us around</div>
+      <div>Swap things around</div>
+      <div>Swap everything around</div>
+    </div>;
+  },
+  dragulaDecorator = (componentBackingInstance) => {
+    if (componentBackingInstance) {
+      let options = { };
+      Dragula([componentBackingInstance], options);
+    }
+  };
+});
+React.render(<App />, document.getElementById('examples'));
+```
+
 # License
 
 MIT
