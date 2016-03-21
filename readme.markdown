@@ -61,6 +61,7 @@ Here's an example using refs (ES2015 syntax):  [React: The ref Callback Attribut
 
 ```jsx
 import * as React from "react";
+import * as ReactDOM from 'react-dom';
 import Dragula from 'react-dragula';
 export class App extends React.Component {
   render () {
@@ -81,7 +82,7 @@ export class App extends React.Component {
     }
   };
 });
-React.render(<App />, document.getElementById('examples'));
+ReactDOM.render(<App />, document.getElementById('examples'));
 ```
 
 # License
