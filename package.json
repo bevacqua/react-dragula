@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "browserify": "11.0.0",
-    "clean-css": "3.3.7",
+    "clean-css": "4.2.1",
     "jshint": "2.8.0",
     "jshint-stylish": "2.0.1",
     "nib": "1.1.0",
